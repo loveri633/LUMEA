@@ -27,6 +27,7 @@ img {
 
 section {
   padding: 120px 3%;
+  scroll-margin-top: 80px;
 }
 
 .wrapper {
@@ -381,6 +382,10 @@ footer small {
   }
   header nav {
     display: none;
+  }
+  header nav ul {
+    flex-direction: column;
+    margin: 0 0 24px 0;
   }
   header.open nav {
     display: flex;
