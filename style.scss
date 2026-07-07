@@ -31,6 +31,7 @@ img {
 //余白,bgcolor,bgimgつける（世界観・余白）
 section {
     padding: 120px 3%;
+    scroll-margin-top: 80px;
 }
 
 //中央寄せ（ほぼ全部のセクションにつける）（レイアウト）
@@ -456,6 +457,11 @@ footer {
 
         nav {
             display: none;
+
+            ul {
+                flex-direction: column;
+                margin: 0 0 24px 0;
+            }
         }
 
         // 開いた状態
